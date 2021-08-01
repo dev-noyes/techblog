@@ -4,20 +4,21 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Dongjun Yang',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Dongjun Yang is cool',
+  url: 'https://dongjunyang.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'dev.balmuda', // Usually your GitHub org/user name.
   projectName: 'techblog', // Usually your repo name.
+  themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
     navbar: {
       title: 'Dongjun Yang',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Dongjun Yang Site Logo',
+        src: 'img/gat.svg',
       },
       items: [
         {
@@ -28,7 +29,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'cli',
+          docId: 'privacy',
           position: 'left',
           label: 'Apps',
         },
@@ -60,16 +61,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/dev.balmuda/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Solo.to (link tree)',
+              href: 'https://solo.to/dev_balmuda',
             },
           ],
         },
@@ -82,16 +79,34 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/devbalmuda',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Dongjun Yang. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
+    },
+    liveCodeBlock: {
+      /**
+       * The position of the live playground, above or under the editor
+       * Possible values: "top" | "bottom"
+       */
+      playgroundPosition: 'bottom',
+    },
+    algolia: {
+      apiKey: '326237131a22335e9cb4291069a785f2',
+      indexName: 'techblog',
+      // Optional: see doc section below
+      contextualSearch: true,
+      // Optional: see doc section below
+      appId: 'SLK8V3IOCN',
+      // Optional: Algolia search parameters
+      searchParameters: {},
+      //... other Algolia params
     },
   },
   presets: [
@@ -119,6 +134,36 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+      },
+    ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/docusaurus.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json', // your PWA manifest
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(37, 194, 160)',
+          },
+        ],
       },
     ],
   ],

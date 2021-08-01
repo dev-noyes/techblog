@@ -2,34 +2,20 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# About me
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## name
+- 👋 Hi, I’m @devbalmuda
 
-## Getting Started
+## interested in
+- 👀 I’m interested in ReactNative, AWS serverless, Strapi
+- 🌱 I’m currently learning Bitcoin Futures autoTrading using Bianance and upbit api.
 
-Get started by **creating a new site**.
+## etc..
+- 💞️ I’m looking to collaborate on my personel mobile application for ios and android.
+- 📫 How to reach me ...
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+<!---
+devbalmuda/devbalmuda is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->

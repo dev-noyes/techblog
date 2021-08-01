@@ -18,28 +18,55 @@ module.exports = {
     'intro',
     {
       type: 'category',
-      label: 'tutorial-basics',
+      label: 'Idea',
       collapsed: false,
       items: [
-        'tutorial-basics/congratulations',
-        'tutorial-basics/create-a-blog-post',
-        'tutorial-basics/create-a-document',
-        'tutorial-basics/create-a-page',
-        'tutorial-basics/deploy-your-site',
-        'tutorial-basics/markdown-features',
+        'idea/congratulations',
       ],
     },
     {
       type: 'category',
-      label: 'tutorial-extras',
+      label: 'Tutorial',
       collapsed: false,
       items: [
-        'tutorial-extras/manage-docs-versions',
-        'tutorial-extras/translate-your-site',
+        'tutorial/manage-docs-versions',
+        'tutorial/translate-your-site',
       ],
     },
   ],
   app:[
-    'intro'
+    'privacy',
+    {
+      type: 'category',
+      label: 'Mobile',
+      collapsed: false,
+      items: [
+        'app/mobile/mobile',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Web',
+      collapsed: false,
+      items: [
+        'app/web/web',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Unity',
+      collapsed: false,
+      items: [
+        'app/unity/unity',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Problem',
+      collapsed: false,
+      items: [
+        'app/problem/problem1',
+      ],
+    },
   ]
 };
