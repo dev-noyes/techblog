@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Dongjun Yang',
   tagline: 'Dongjun Yang is cool',
-  url: 'http://localhost:3000',
+  url: 'https://dongjunyang.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
