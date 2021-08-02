@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Dongjun Yang',
   tagline: 'Dongjun Yang is cool',
-  url: 'https://dongjunyang.netlify.app',
+  url: 'http://localhost:3000',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -26,12 +26,6 @@ module.exports = {
           docId: 'intro',
           position: 'left',
           label: 'Docs',
-        },
-        {
-          type: 'doc',
-          docId: 'privacy',
-          position: 'left',
-          label: 'Apps',
         },
         {
           to: '/blog', 
@@ -98,7 +92,7 @@ module.exports = {
       playgroundPosition: 'bottom',
     },
     algolia: {
-      apiKey: '326237131a22335e9cb4291069a785f2',
+      apiKey: 'afd5751fe27ffb0964717f5c075c6667',
       indexName: 'techblog',
       // Optional: see doc section below
       contextualSearch: true,

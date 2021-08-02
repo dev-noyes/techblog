@@ -1,0 +1,25 @@
+---
+sidebar_position: 2
+---
+
+# Expo problem
+
+### expo start - can not run android emulator
+
+### Couldn't start project on Android
+Couldn't start project on Android: No Android connected device found, and no emulators could be started automatically.
+
+Please connect a device or create an emulator https://docs.expo.io/workflow/android-studio-emulator.
+
+Then follow the instructions here to enable USB debugging
+https://developer.android.com/studio/run/device.html#developer-device-options. 
+
+If you are using Genymotion go to Settings -> ADB, select "Use custom Android SDK tools", and point it at your Android SDK directory.
+Couldn't start project on Android: No Android connected device found, and no emulators could be started automatically.
+
+Please connect a device or create an emulator https://docs.expo.io/workflow/android-studio-emulator.
+
+Then follow the instructions here to enable USB debugging:
+https://developer.android.com/studio/run/device.html#developer-device-options. 
+
+If you are using Genymotion go to Settings -> ADB, select "Use custom Android SDK tools", and point it at your Android SDK directory.
