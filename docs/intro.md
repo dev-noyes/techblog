@@ -1,17 +1,11 @@
 ---
 title: About me
-hide_title: false
-hide_table_of_contents: false
 sidebar_label: About me
 sidebar_position: 3
-pagination_label: Markdown features
-custom_edit_url: https://github.com/devbalmuda
 description: This is my introdcution about dongjun Yang.
 keywords:
   - docs
   - docusaurus
-image: https://i.imgur.com/mErPwqL.png
-slug: /myDoc
 ---
 
 # About me
