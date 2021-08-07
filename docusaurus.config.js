@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Dongjun Yang',
-  tagline: 'Dongjun Yang is cool',
-  url: 'https://dongjunyang.netlify.app/',
+  tagline: 'This is the tech blog of dongjun yang.',
+  url: 'https://dongjunyang.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

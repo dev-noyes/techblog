@@ -4,32 +4,32 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Mobile',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        I make the mobile application with react-native with expo. 
+        I love react hooks and react-navigation. 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Unity',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        I have an interests on the AR with unity AR foundation. 
+        Currently interted in apps walking with AR animals.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Machine Learning',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        I used the ML for forecasting the stock price or bitcoion price.
+        And intereted in object detection and sign language detection.
       </>
     ),
   },
