@@ -1,7 +1,13 @@
 {
   "index_name": "techblog",
-  "start_urls":["https://dongjunyang.netlify.app/"],
-  "sitemap_urls": ["https://dongjunyang.netlify.app/sitemap.xml"],
+  "start_urls":[
+    "https://dongjunyang.netlify.app/",
+    "https://dongjunyang.dev/"
+  ],
+  "sitemap_urls": [
+    "https://dongjunyang.netlify.app/sitemap.xml",
+    "https://dongjunyang.dev/sitemap.xml"
+  ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
