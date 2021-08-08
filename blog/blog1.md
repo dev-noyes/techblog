@@ -4,7 +4,7 @@ title: Hello World
 author: Dongjun Yang
 author_title: Developer
 author_url: https://github.com/devbalmuda
-author_image_url: ../static/img/docusaurus.png
+author_image_url: https://github.com/devbalmuda.png
 tags: [developer, devlog , docusaurus]
 ---
 

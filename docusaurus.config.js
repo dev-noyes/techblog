@@ -92,7 +92,7 @@ module.exports = {
       playgroundPosition: 'bottom',
     },
     algolia: {
-      apiKey: 'afd5751fe27ffb0964717f5c075c6667',
+      apiKey: '326237131a22335e9cb4291069a785f2',
       indexName: 'techblog',
       // Optional: see doc section below
       contextualSearch: true,
