@@ -2,6 +2,11 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+## 1.0.4
+
+### change logo svg
+### robots.txt to static folder
+
 ## 1.0.3
 
 ### add version code

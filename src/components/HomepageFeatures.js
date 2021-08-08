@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Mobile',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/reactnative.svg').default,
     description: (
       <>
         I make the mobile application with react-native with expo. 
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Unity',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('../../static/img/unity.svg').default,
     description: (
       <>
         I have an interests on the AR with unity AR foundation. 
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Machine Learning',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('../../static/img/tensorflowjs.svg').default,
     description: (
       <>
         I used the ML for forecasting the stock price or bitcoion price.
