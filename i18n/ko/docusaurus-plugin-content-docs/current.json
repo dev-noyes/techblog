@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "다음",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Mobile": {
+    "message": "모바일",
+    "description": "The label for category Mobile in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Web": {
+    "message": "웹",
+    "description": "The label for category Web in sidebar tutorialSidebar"
+  }
+}

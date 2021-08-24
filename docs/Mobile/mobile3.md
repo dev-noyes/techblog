@@ -3,8 +3,8 @@ title: React Native with Expo
 description: This is my introdcution about dongjun Yang.
 sidebar_position: 3
 keywords:
-  - docs
-  - docusaurus
+  - react native
+  - expo
 ---
 
 # React Native with Expo

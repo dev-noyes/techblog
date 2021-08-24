@@ -12,6 +12,20 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'dev.balmuda', // Usually your GitHub org/user name.
   projectName: 'techblog', // Usually your repo name.
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'ko'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+      },
+      ko: {
+        label: '한국어',
+        direction: 'ltr',
+      },
+    },
+  },
   themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
     navbar: {
@@ -33,6 +47,10 @@ module.exports = {
           position: 'left'
         },
         {
+          type: 'localeDropdown',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/devbalmuda',
           label: 'GitHub',
           position: 'right',
@@ -48,6 +66,10 @@ module.exports = {
             {
               label: 'Documentation',
               to: '/docs/intro',
+            },
+            {
+              label: 'Blog',
+              to: '/blog',
             },
           ],
         },
@@ -67,10 +89,6 @@ module.exports = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/devbalmuda',
@@ -132,6 +150,14 @@ module.exports = {
     ],
   ],
   plugins: [
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'weekly',
+        priority: 0.5,
+        trailingSlash: false,
+      },
+    ],
     [
       '@docusaurus/plugin-pwa',
       {

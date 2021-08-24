@@ -1,6 +1,6 @@
 ---
 slug: blog1
-title: DEVLOG - 2021.08.25
+title: Hello World
 author: Dongjun Yang
 author_title: Developer
 author_url: https://github.com/devbalmuda
@@ -8,7 +8,4 @@ author_image_url: https://github.com/devbalmuda.png
 tags: [developer, devlog , docusaurus]
 ---
 
-## Greeting
-
-- Docusaurus i18n & PWA updates
-- HTTP QR & Barcode scanner new version update
+안녕하세요. 현재 사이트를 운영하고 있는 dongjun yang 입니다.

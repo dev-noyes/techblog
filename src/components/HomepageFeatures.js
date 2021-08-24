@@ -1,36 +1,37 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import Translate, { translate } from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: 'Mobile',
+    title: <Translate>Mobile</Translate>,
     Svg: require('../../static/img/reactnative.svg').default,
     description: (
-      <>
+      <Translate>
         I make the mobile application with react-native with expo. 
         I love react hooks and react-navigation. 
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Unity',
+    title: <Translate>Unity</Translate>,
     Svg: require('../../static/img/unity.svg').default,
     description: (
-      <>
+      <Translate>
         I have an interests on the AR with unity AR foundation. 
         Currently interted in apps walking with AR animals.
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Machine Learning',
+    title: <Translate>Machine Learning</Translate>,
     Svg: require('../../static/img/tensorflowjs.svg').default,
     description: (
-      <>
+      <Translate>
         I used the ML for forecasting the stock price or bitcoion price.
         And intereted in object detection and sign language detection.
-      </>
+      </Translate>
     ),
   },
 ];
