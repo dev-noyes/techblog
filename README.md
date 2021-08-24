@@ -2,6 +2,10 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+## 1.0.8
+
+### build error supports
+
 ## 1.0.7
 
 ### Korean supports - i18n 

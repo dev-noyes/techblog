@@ -3,7 +3,6 @@ title: 자기 소개
 sidebar_label: 자기 소개
 sidebar_position: 3
 description: 개발자 양동준의 테크 문서입니다.
-slug: /
 keywords:
   - docs
   - docusaurus

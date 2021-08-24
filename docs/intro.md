@@ -3,13 +3,12 @@ title: About me
 sidebar_label: About me
 sidebar_position: 1
 description: This is my introdcution about dongjun Yang.
-slug: /
 keywords:
   - introduction
   - developer
 ---
 
-# About me
+# About me 
 
 ## name
 - 👋 Hi, I’m @devbalmuda

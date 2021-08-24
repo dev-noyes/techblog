@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Docusaurus Algoria
+# Docusaurus Algoria 
 
 ## Docusaurus Algoria Installation
 

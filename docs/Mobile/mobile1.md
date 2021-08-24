@@ -7,7 +7,7 @@ keywords:
   - docusaurus
 ---
 
-## Privacy Policy
+## Privacy Policy 
 
 dongjun yang built the global currency app as an Ad Supported app. This SERVICE is provided by dongjun yang at no cost and is intended for use as is.
 

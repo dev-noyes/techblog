@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Markdown Example
+# Markdown Example 
 
 This page is a markdown example of docusaurus.
 
