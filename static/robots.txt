@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://dongjunyang.netlify.dev/sitemap.xml
+Sitemap: https://dongjunyang.dev/sitemap.xml
