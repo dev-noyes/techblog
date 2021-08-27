@@ -6,6 +6,8 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 ### change icon color
 ### add blog and contents
+### add app-ads.txt to static files
+### change sitemap.xml
 
 ## 1.0.8
 
