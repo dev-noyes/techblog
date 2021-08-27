@@ -1,6 +1,12 @@
 {
+  "Dongjun Yang": {
+    "message": "개발자 양동준"
+  },
+  "This is my techical documentation and blog.": {
+    "message": "이 웹사이트는 개발자 양동준의 기술 문서와 블로그입니다. "
+  },
   "About Dongjun Yang ⏱️": {
-    "message": "개발자 양동준에 대해서 ⏱️"
+    "message": "개발자 양동준에 관해서.. ⏱️"
   },
   "theme.NotFound.title": {
     "message": "페이지를 찾을 수 없습니다.",
@@ -18,18 +24,6 @@
     "message": "닫기",
     "description": "The ARIA label for close button of announcement bar"
   },
-  "theme.blog.post.readingTime.plurals": {
-    "message": "약 {readingTime}분",
-    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.tags.tagsListLabel": {
-    "message": "태그:",
-    "description": "The label alongside a tag list"
-  },
-  "theme.blog.post.readMore": {
-    "message": "자세히 보기",
-    "description": "The label used in blog post item excerpts to link to full blog posts"
-  },
   "theme.blog.paginator.navAriaLabel": {
     "message": "블로그 게시물 목록 탐색",
     "description": "The ARIA label for the blog pagination"
@@ -41,6 +35,18 @@
   "theme.blog.paginator.olderEntries": {
     "message": "다음 페이지",
     "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "약 {readingTime}분",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "태그:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.blog.post.readMore": {
+    "message": "자세히 보기",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.paginator.navAriaLabel": {
     "message": "블로그 게시물 탐색",
@@ -55,12 +61,8 @@
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "블로그의 최신 글",
+    "message": "최신 블로그 포스트로",
     "description": "The ARIA label for recent posts in the blog sidebar"
-  },
-  "theme.tags.tagsPageTitle": {
-    "message": "태그",
-    "description": "The title of the tag list page"
   },
   "theme.blog.post.plurals": {
     "message": "{count}개 게시물",
@@ -73,6 +75,10 @@
   "theme.tags.tagsPageLink": {
     "message": "모든 태그 보기",
     "description": "The label of the link targeting the tag list page"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "태그",
+    "description": "The title of the tag list page"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
     "message": "클립보드에 코드 복사",
@@ -114,10 +120,6 @@
     "message": "사이드바 숨기기",
     "description": "The title attribute for collapse button of doc sidebar"
   },
-  "theme.common.editThisPage": {
-    "message": "페이지 편집",
-    "description": "The link label to edit the current page"
-  },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "{siteTitle} {versionLabel} 문서는 아직 정식 공개되지 않았습니다.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
@@ -133,6 +135,10 @@
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "최신 버전",
     "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "페이지 편집",
+    "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
     "message": "제목으로 바로 가기",
@@ -151,7 +157,7 @@
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← 메인 페이지로 가기",
+    "message": "← 메인 메뉴로 넘어가기",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.common.skipToMainContent": {
@@ -159,7 +165,7 @@
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "해당 페이지는",
+    "message": "현재 페이지",
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.SearchPage.documentsFound.plurals": {
@@ -236,10 +242,10 @@
   "I used the ML for forecasting the stock price or bitcoion price. And intereted in object detection and sign language detection.": {
     "message": "시계열 머신러닝을 활용해서 비트코인의 가격을 예측하고 있습니다. 또한 머신러닝을 활용한 Object detection 과 수어 번역에 관심이 있습니다."
   },
-  "Dongjun Yang": {
-    "message": "양동준"
+  "This is my technical spec.": {
+    "message": "개발자 양동준의 테크 스펙입니다."
   },
-  "This is the tech blog of dongjun yang.": {
-    "message": "개발자 양동준의 테크 문서입니다."
+  "I dream of becoming a software engineer who can experience and combine all kinds of software.": {
+    "message": "다양한 종류의 소프트웨어를 경험하고 조합할 수 있는 소프트웨어 엔지니어가 되는 것을 꿈구고 있습니다."
   }
 }

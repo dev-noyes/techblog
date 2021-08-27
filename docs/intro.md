@@ -8,10 +8,8 @@ keywords:
   - developer
 ---
 
-# About me 
-
 ## name
-- 👋 Hi, I’m @devbalmuda
+- 👋 Hi, I’m @dongjun yang
 
 ## interested in
 - 👀 I’m interested in ReactNative, AWS serverless, Strapi
@@ -20,7 +18,7 @@ keywords:
 
 ## what i can do 
 
-![img alt](/img/spec.png)
+![img alt](/img/techspec.png)
 
 ## projects
 
@@ -28,12 +26,18 @@ The projects i developed are as follows.
 
 ### React Native
 
-1. Global currency
-2. HTTP + QR & Barcode scanner
-3. Address storage
-4. Pain storage
-5. Kimchi premium 
-6. All fonts
+| OS           | Name                             |
+|:-------------|---------------------------------:|
+| Android, iOS | Global currency                  |
+| Android, iOS | HTTP QR & barcode scanner        |  
+| Android, iOS | Address Saver                    | 
+| Android      | All fonts                        | 
+| Android, iOS | 대동 국밥 지도                    | 
+| Android, iOS | Pain history                     | 
+| Android, iOS | 전국 유치원 지도                  | 
+| Android, iOS | 반려동물 관광지도                 | 
+| Android, iOS | 전국 주차장 지도                  | 
+| Android, iOS | 김치 프리미엄 차트                | 
 
 ### Docusaurus
 
@@ -41,11 +45,12 @@ The projects i developed are as follows.
 
 ### Time-series machine learning
 
-Binance futures forecasting using facebook prophet.
+Using facebook prophet, make my own trading logic for binance futures trade.
 
 ### Tensorflow.js
 
 Using google teachable machine and microsoft lobe.ai .
+- [Mask detector Web](https://nomask-detector.netlify.app)
 
 ## etc..
 - 💞️ I’m looking to collaborate on my personel mobile application for ios and android.

@@ -2,6 +2,11 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+## 1.0.9
+
+### change icon color
+### add blog and contents
+
 ## 1.0.8
 
 ### build error supports
@@ -17,7 +22,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 ## 1.0.5
 
 ### change profile img on blog
-### algoria .env setting 
+### Algolia .env setting 
 
 ## 1.0.4
 
@@ -31,7 +36,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 ## v1.0.2
 
-### add algoria
+### add Algolia
 ### docker cmd on windows
 
 `using git bash`

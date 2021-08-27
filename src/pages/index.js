@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
+import TechnicalSpec from '../components/TechincalSpec';
 import Translate, { translate } from '@docusaurus/Translate';
 
 function HomepageHeader() {
@@ -13,7 +14,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title"><Translate>Dongjun Yang</Translate></h1>
-        <p className="hero__subtitle"><Translate>This is the tech blog of dongjun yang.</Translate></p>
+        <p className="hero__subtitle"><Translate>This is my techical documentation and blog.</Translate></p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -36,6 +37,7 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
+        {/*<TechnicalSpec />*/}
         <HomepageFeatures />
       </main>
     </Layout>

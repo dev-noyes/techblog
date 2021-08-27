@@ -1,14 +1,18 @@
 {
   "version.label": {
-    "message": "다음",
+    "message": "현재 버전",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Mobile": {
+  "sidebar.tutorialSidebar.category.mobile": {
     "message": "모바일",
-    "description": "The label for category Mobile in sidebar tutorialSidebar"
+    "description": "The label for category mobile in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Web": {
-    "message": "웹",
-    "description": "The label for category Web in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.trading": {
+    "message": "트레이딩",
+    "description": "The label for category trading in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.web": {
+    "message": "프론트엔드",
+    "description": "The label for category web in sidebar tutorialSidebar"
   }
 }

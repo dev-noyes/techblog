@@ -163,7 +163,7 @@ module.exports = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: '/img/docusaurus.png',
+            href: '/img/gat.png',
           },
           {
             tagName: 'link',
@@ -188,18 +188,18 @@ module.exports = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: '/img/docusaurus.png',
+            href: '/img/gat.png',
           },
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: '/img/logo.svg',
+            href: '/img/gat.svg',
             color: 'rgb(37, 194, 160)',
           },
           {
             tagName: 'meta',
             name: 'msapplication-TileImage',
-            content: '/img/docusaurus.png',
+            content: '/img/gat.png',
           },
           {
             tagName: 'meta',
