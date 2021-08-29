@@ -4,6 +4,9 @@ sidebar_position: 3
 
 # Docusarus i18n setting
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 export const Highlight = ({children, color}) => (
   <span
     style={{
@@ -58,13 +61,28 @@ It means that you can not test all the language with <Highlight color="#2196f3">
 So you need to test with below command.
 :::
 
-```bash
-npm run start -- --locale ko
-```
+<Tabs
+  defaultValue="npm"
+  values={[
+    { label: 'npm', value: 'npm', },
+    { label: 'yarn', value: 'yarn', },
+  ]}
+>
+  <TabItem value="npm">
 
-```bash
-yarn run start -- --locale ko
-```
+  ```bash
+  npm run start -- --locale ko
+  ```
+
+  </TabItem>
+  <TabItem value="yarn">
+
+  ```bash
+  yarn run start -- --locale ko
+  ```
+
+  </TabItem>
+</Tabs>
 
 ## translate api usage
 
@@ -97,15 +115,30 @@ import Translate, {translate} from '@docusaurus/Translate';
 
 ## translate command 
 
-```bash
-npm run write-translations -- --locale ko
-```
+<Tabs
+  defaultValue="npm"
+  values={[
+    { label: 'npm', value: 'npm', },
+    { label: 'yarn', value: 'yarn', },
+  ]}
+>
+  <TabItem value="npm">
 
-```bash
-yarn run write-translations -- --locale fr
-```
+  ```bash
+  npm run write-translations -- --locale ko
+  ```
 
-```jsx title="i18n/fr/code.json"
+  </TabItem>
+  <TabItem value="yarn">
+
+  ```bash
+  yarn run write-translations -- --locale ko
+  ```
+
+  </TabItem>
+</Tabs>
+
+```jsx title="i18n/ko/code.json"
 {
   "Welcome to my website": {
     "message": "Welcome to my website",
@@ -118,7 +151,7 @@ yarn run write-translations -- --locale fr
 }
 ```
 
-```jsx title="i18n/fr/docusaurus-theme-classic/navbar.json"
+```jsx title="i18n/ko/docusaurus-theme-classic/navbar.json"
 {
   "title": {
     "message": "My Site",
@@ -138,6 +171,8 @@ yarn run write-translations -- --locale fr
   }
 }
 ```
+
+Translate the `message` attribute in the JSON files of i18n/ko, and your site layout and homepage should now be translated.
 
 ## copy files for new language
 
@@ -169,10 +204,27 @@ cp -r blog/** i18n/ko/docusaurus-plugin-content-blog
 
 ## build & deploy site
 
-```bash
-npm run build
-```
+You can now deploy the build folder to the static hosting solution of your choice.
 
-```bash
-yarn run build
-```
+<Tabs
+  defaultValue="npm"
+  values={[
+    { label: 'npm', value: 'npm', },
+    { label: 'yarn', value: 'yarn', },
+  ]}
+>
+  <TabItem value="npm">
+
+  ```bash
+  npm run build
+  ```
+
+  </TabItem>
+  <TabItem value="yarn">
+
+  ```bash
+  yarn run build
+  ```
+
+  </TabItem>
+</Tabs>

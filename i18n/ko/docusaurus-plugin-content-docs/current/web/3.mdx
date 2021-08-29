@@ -2,7 +2,10 @@
 sidebar_position: 3
 ---
 
-# Docusarus i18n setting
+# Docusarus i18n 한국어 설정
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 export const Highlight = ({children, color}) => (
   <span
@@ -16,13 +19,13 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-한국어 페이지 세팅을 위한 docusaurus 의 i18n 설정 페이지입니다.
+해당 문서는 docusaurus의 i18n 한국어 번역 설정을 설명하는 문서입니다.
 
-I followed this [**page**](https://docusaruus.io/docs/i18n/tutorial).
+다음 문서를 참조하였습니다. [**page**](https://docusaruus.io/docs/i18n/tutorial).
 
 ## docusaurus.config.js
 
-### site language
+### 사이트 언어 설정
 
 ```jsx title="docusaurus.config.js"
 module.exports = {
@@ -33,7 +36,7 @@ module.exports = {
 };
 ```
 
-### topbar language button
+### topbar 언어 설정 버튼
 
 ```jsx {5-8} title="docusaurus.config.js"
 module.exports = {
@@ -50,7 +53,7 @@ module.exports = {
 };
 ```
 
-## start site
+## 사이트를 시작하기
 
 :::caution
 You can not test all the language at once. 
@@ -58,17 +61,32 @@ It means that you can not test all the language with <Highlight color="#2196f3">
 So you need to test with below command.
 :::
 
-```bash
-npm run start -- --locale ko
-```
+<Tabs
+  defaultValue="npm"
+  values={[
+    { label: 'npm', value: 'npm', },
+    { label: 'yarn', value: 'yarn', },
+  ]}
+>
+  <TabItem value="npm">
 
-```bash
-yarn run start -- --locale ko
-```
+  ```bash
+  npm run start -- --locale ko
+  ```
 
-## translate api usage
+  </TabItem>
+  <TabItem value="yarn">
 
-There are two way to use the component(Translate) and function(translate()).
+  ```bash
+  yarn run start -- --locale ko
+  ```
+
+  </TabItem>
+</Tabs>
+
+## translate api 사용법
+
+두가지 사용법이 존재합니다. component(Translate) 와 function(translate()).
 
 ```jsx title="sample code"
 import Translate, {translate} from '@docusaurus/Translate';
@@ -95,17 +113,32 @@ import Translate, {translate} from '@docusaurus/Translate';
 </main>
 ```
 
-## translate command 
+## 번역 커맨드
 
-```bash
-npm run write-translations -- --locale ko
-```
+<Tabs
+  defaultValue="npm"
+  values={[
+    { label: 'npm', value: 'npm', },
+    { label: 'yarn', value: 'yarn', },
+  ]}
+>
+  <TabItem value="npm">
 
-```bash
-yarn run write-translations -- --locale fr
-```
+  ```bash
+  npm run write-translations -- --locale ko
+  ```
 
-```jsx title="i18n/fr/code.json"
+  </TabItem>
+  <TabItem value="yarn">
+
+  ```bash
+  yarn run write-translations -- --locale ko
+  ```
+
+  </TabItem>
+</Tabs>
+
+```jsx title="i18n/ko/code.json"
 {
   "Welcome to my website": {
     "message": "Welcome to my website",
@@ -118,7 +151,7 @@ yarn run write-translations -- --locale fr
 }
 ```
 
-```jsx title="i18n/fr/docusaurus-theme-classic/navbar.json"
+```jsx title="i18n/ko/docusaurus-theme-classic/navbar.json"
 {
   "title": {
     "message": "My Site",
@@ -139,9 +172,12 @@ yarn run write-translations -- --locale fr
 }
 ```
 
-## copy files for new language
+i18n/ko/code.json 파일에 있는 `message` attribute 를 번역하세요.
+그러면 사이트의 레이아웃과 홈페이지가 번역되는 환경이 구축됩니다.
 
-### copy docs files
+## 한국어 언어를 위한 파일 복사
+
+### docs 파일 복사
 
 :::note
 you can skip mkdir if you have already made folder.
@@ -154,7 +190,7 @@ mkdir -p i18n/ko/docusaurus-plugin-content-docs/current
 cp -r docs/** i18n/ko/docusaurus-plugin-content-docs/current
 ```
 
-### copy blog files
+### blog 파일 복사
 
 :::note
 you can skip mkdir if you have already made folder.
@@ -167,12 +203,29 @@ mkdir -p i18n/ko/docusaurus-plugin-content-blog
 cp -r blog/** i18n/ko/docusaurus-plugin-content-blog
 ```
 
-## build & deploy site
+## 빌드 & 배포 방법
 
-```bash
-npm run build
-```
+밑의 커맨드로 만들어진 build 폴더를 마음에 드는 호스팅회사에 배포한다.
 
-```bash
-yarn run build
-```
+<Tabs
+  defaultValue="npm"
+  values={[
+    { label: 'npm', value: 'npm', },
+    { label: 'yarn', value: 'yarn', },
+  ]}
+>
+  <TabItem value="npm">
+
+  ```bash
+  npm run build
+  ```
+
+  </TabItem>
+  <TabItem value="yarn">
+
+  ```bash
+  yarn run build
+  ```
+
+  </TabItem>
+</Tabs>
