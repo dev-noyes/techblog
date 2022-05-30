@@ -1,38 +1,22 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
-import Translate, { translate } from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: <Translate>Mobile</Translate>,
+    title: "모바일앱 개발",
     Svg: require('../../static/img/reactnative.svg').default,
-    description: (
-      <Translate>
-        I make the mobile application with react-native with expo. 
-        I love react hooks and react-navigation. 
-      </Translate>
-    ),
+    description: "ReactNative + Expo 로 안드로이드 iOS 앱을 만들어요. EAS로 배포를 하고 code push를 사용합니다."
   },
   {
-    title: <Translate>Unity</Translate>,
+    title: "Unity",
     Svg: require('../../static/img/unity.svg').default,
-    description: (
-      <Translate>
-        I have an interests on the AR with unity AR foundation. 
-        Currently interted in apps walking with AR animals.
-      </Translate>
-    ),
+    description: "AR foundation을 활용한 AR 서비스를 기획하고 개발하고 있습니다. 간단한 2d 게임을 만드는데 관심있어요.",
   },
   {
-    title: <Translate>Machine Learning</Translate>,
+    title: "Machine Learning",
     Svg: require('../../static/img/tensorflowjs.svg').default,
-    description: (
-      <Translate>
-        I used the ML for forecasting the stock price or bitcoion price.
-        And intereted in object detection and sign language detection.
-      </Translate>
-    ),
+    description: "Tensorflow JS를 활용한 서비스에 관심이 많아요. Nocode AI 나 super resolution, pose detection 에 관심있어요.",
   },
 ];
 

@@ -6,21 +6,20 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import TechnicalSpec from '../components/TechincalSpec';
-import Translate, { translate } from '@docusaurus/Translate';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title"><Translate>Dongjun Yang</Translate></h1>
-        <p className="hero__subtitle"><Translate>This is my techical documentation and blog.</Translate></p>
+        <h1 className="hero__title">Dongjun Yang</h1>
+        <p className="hero__subtitle">부족한 저라는 사람을 기록하고 테크지식을 공유하는 공간입니다.</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            <Translate>About Dongjun Yang ⏱️</Translate>
+            저에 대해서 궁금하신가요? ⏱️
           </Link>
         </div>
       </div>

@@ -12,20 +12,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'dev.balmuda', // Usually your GitHub org/user name.
   projectName: 'techblog', // Usually your repo name.
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'ko'],
-    localeConfigs: {
-      en: {
-        label: 'English',
-        direction: 'ltr',
-      },
-      ko: {
-        label: '한국어',
-        direction: 'ltr',
-      },
-    },
-  },
   themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
     navbar: {
@@ -45,10 +31,6 @@ module.exports = {
           to: '/blog', 
           label: 'Blog', 
           position: 'left'
-        },
-        {
-          type: 'localeDropdown',
-          position: 'right',
         },
         {
           href: 'https://github.com/devbalmuda',
@@ -77,12 +59,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Instagram',
-              href: 'https://www.instagram.com/dev.balmuda/',
+              label: 'Solo.to',
+              href: 'https://solo.to/dongjun_yang',
             },
             {
-              label: 'Solo.to (link tree)',
-              href: 'https://solo.to/dev_balmuda',
+              label: 'Discord',
+              href: 'https://discord.gg/QkMwbyU9T6',
             },
           ],
         },
@@ -126,12 +108,6 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        app: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:

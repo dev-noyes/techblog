@@ -2,6 +2,13 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+
+## 1.0.10
+
+### delete i18n function only korean
+### beta 21 version
+### @mdx-js/react 이 1.6.22 여야만한 최신버전 지원 안됨.
+
 ## 1.0.9
 
 ### change icon color
