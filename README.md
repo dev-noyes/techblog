@@ -3,6 +3,11 @@
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 
+## 1.1.0
+
+- 모바일 마케팅페이지 추가
+- 메인 페이지 수정
+
 ## 1.0.10
 
 - delete i18n function only korean
