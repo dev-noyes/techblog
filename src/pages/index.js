@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import TechnicalSpec from '../components/TechincalSpec';
+import MobilepageFeactures from '../components/MobilepageFeatures';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -36,8 +37,9 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
-        {/*<TechnicalSpec />*/}
         <HomepageFeatures />
+        <TechnicalSpec />
+        <MobilepageFeactures />
       </main>
     </Layout>
   );

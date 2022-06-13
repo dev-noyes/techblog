@@ -1,17 +1,12 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './TechicalSpec.module.css';
-import Translate, { translate } from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: <Translate>This is my technical spec.</Translate>,
+    title: "사용가능한 테크 지식",
     img: require('../../static/img/techspec.png').default,
-    description: (
-      <Translate>
-        I dream of becoming a software engineer who can experience and combine all kinds of software.
-      </Translate>
-    ),
+    description:"완성품을 만들기위해 다양한 지식들을 습득하는 개발자입니다.",
   },
 ];
 function Feature({ img, title, description }) {
