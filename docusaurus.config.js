@@ -1,79 +1,80 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Dongjun Yang',
-  tagline: 'This is the tech blog of dongjun yang.',
-  url: 'https://dongjunyang.netlify.app',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'dev.balmuda', // Usually your GitHub org/user name.
-  projectName: 'techblog', // Usually your repo name.
-  themes: ['@docusaurus/theme-live-codeblock'],
+  title: "Dongjun Yang",
+  tagline: "This is the tech blog of dongjun yang.",
+  url: "https://dongjunyang.netlify.app",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "dev.balmuda", // Usually your GitHub org/user name.
+  projectName: "techblog", // Usually your repo name.
+  themes: ["@docusaurus/theme-live-codeblock"],
   themeConfig: {
+    metadata: [{ name: "keywords", content: "reactnative, 개발자, 개발, 한글립, 리액트네이티브, prophet" }],
     navbar: {
-      title: 'Dongjun Yang',
+      title: "Dongjun Yang",
       logo: {
-        alt: 'Dongjun Yang Site Logo',
-        src: 'img/gat.svg',
+        alt: "Dongjun Yang Site Logo",
+        src: "img/gat.svg",
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Docs',
+          type: "doc",
+          docId: "intro",
+          position: "left",
+          label: "Docs",
         },
         {
-          to: '/blog', 
-          label: 'Blog', 
-          position: 'left'
+          to: "/blog",
+          label: "Blog",
+          position: "left",
         },
         {
-          href: 'https://github.com/devbalmuda',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/devbalmuda",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Documentation',
-              to: '/docs/intro',
+              label: "Documentation",
+              to: "/docs/intro",
             },
             {
-              label: 'Blog',
-              to: '/blog',
+              label: "Blog",
+              to: "/blog",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Solo.to',
-              href: 'https://solo.to/dongjun_yang',
+              label: "Solo.to",
+              href: "https://solo.to/dongjun_yang",
             },
             {
-              label: 'Discord',
-              href: 'https://discord.gg/QkMwbyU9T6',
+              label: "Discord",
+              href: "https://discord.gg/QkMwbyU9T6",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/devbalmuda',
+              label: "GitHub",
+              href: "https://github.com/devbalmuda",
             },
           ],
         },
@@ -89,15 +90,15 @@ module.exports = {
        * The position of the live playground, above or under the editor
        * Possible values: "top" | "bottom"
        */
-      playgroundPosition: 'bottom',
+      playgroundPosition: "bottom",
     },
     algolia: {
-      apiKey: '326237131a22335e9cb4291069a785f2',
-      indexName: 'techblog',
+      apiKey: "326237131a22335e9cb4291069a785f2",
+      indexName: "techblog",
       // Optional: see doc section below
       contextualSearch: true,
       // Optional: see doc section below
-      appId: 'SLK8V3IOCN',
+      appId: "SLK8V3IOCN",
       // Optional: Algolia search parameters
       searchParameters: {},
       //... other Algolia params
@@ -105,82 +106,76 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: "https://github.com/facebook/docusaurus/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
   ],
   plugins: [
     [
-      '@docusaurus/plugin-pwa',
+      "@docusaurus/plugin-pwa",
       {
         debug: true,
-        offlineModeActivationStrategies: [
-          'appInstalled',
-          'standalone',
-          'queryString',
-        ],
+        offlineModeActivationStrategies: ["appInstalled", "standalone", "queryString"],
         pwaHead: [
           {
-            tagName: 'link',
-            rel: 'icon',
-            href: '/img/gat.png',
+            tagName: "link",
+            rel: "icon",
+            href: "/img/gat.png",
           },
           {
-            tagName: 'link',
-            rel: 'manifest',
-            href: '/manifest.json',
+            tagName: "link",
+            rel: "manifest",
+            href: "/manifest.json",
           },
           {
-            tagName: 'meta',
-            name: 'theme-color',
-            content: 'rgb(37, 194, 160)',
+            tagName: "meta",
+            name: "theme-color",
+            content: "rgb(37, 194, 160)",
           },
           {
-            tagName: 'meta',
-            name: 'apple-mobile-web-app-capable',
-            content: 'yes',
+            tagName: "meta",
+            name: "apple-mobile-web-app-capable",
+            content: "yes",
           },
           {
-            tagName: 'meta',
-            name: 'apple-mobile-web-app-status-bar-style',
-            content: '#000',
+            tagName: "meta",
+            name: "apple-mobile-web-app-status-bar-style",
+            content: "#000",
           },
           {
-            tagName: 'link',
-            rel: 'apple-touch-icon',
-            href: '/img/gat.png',
+            tagName: "link",
+            rel: "apple-touch-icon",
+            href: "/img/gat.png",
           },
           {
-            tagName: 'link',
-            rel: 'mask-icon',
-            href: '/img/gat.svg',
-            color: 'rgb(37, 194, 160)',
+            tagName: "link",
+            rel: "mask-icon",
+            href: "/img/gat.svg",
+            color: "rgb(37, 194, 160)",
           },
           {
-            tagName: 'meta',
-            name: 'msapplication-TileImage',
-            content: '/img/gat.png',
+            tagName: "meta",
+            name: "msapplication-TileImage",
+            content: "/img/gat.png",
           },
           {
-            tagName: 'meta',
-            name: 'msapplication-TileColor',
-            content: '#000',
+            tagName: "meta",
+            name: "msapplication-TileColor",
+            content: "#000",
           },
         ],
       },

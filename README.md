@@ -3,6 +3,10 @@
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 
+## 1.2.0
+- 개인정보방침 변경
+- 버전 2.1.0 업데이트
+
 ## 1.1.0
 
 - 모바일 마케팅페이지 추가
