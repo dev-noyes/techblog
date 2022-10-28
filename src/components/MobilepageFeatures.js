@@ -21,6 +21,24 @@ const MobileList = [
     description: "실시간 글로벌 환율 정보를 얻어보세요.",
     link: "docs/mobile/5",
   },
+  {
+    title: "Total Scanner",
+    Svg: require("../../static/img/total-scanner.svg").default,
+    description: "QR코드 바코드를 스캔하고 만들어보세요.",
+    link: "docs/mobile/6",
+  },
+  {
+    title: "핸드폰 센서 고장 알리미",
+    Svg: require("../../static/img/sensor.svg").default,
+    description: "김치 프리미엄을 실시간으로 확인해보세요.",
+    link: "docs/mobile/7",
+  },
+ /*  {
+    title: "감정먼지",
+    Svg: require("../../static/img/feeling-mungi.svg").default,
+    description: "당신의 감정을 분류하고 확인해보세요.",
+    link: "docs/mobile/8",
+  }, */
 ];
 
 function Feature({ Svg, title, description, link }) {
